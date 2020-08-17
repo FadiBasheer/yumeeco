@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "403117145667",
+    "firebase_url": "https://yumeeco-7ed11.firebaseio.com",
+    "project_id": "yumeeco-7ed11",
+    "storage_bucket": "yumeeco-7ed11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403117145667:android:cfed83a7fb983a923f5ef6",
+        "android_client_info": {
+          "package_name": "com.fadi.yumeeco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403117145667-jqv31msl4v0j0dn12htd501nqg13a0oo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApsuXnN0pjqwR0O2_gjtvlyYfewy8ExfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403117145667-jqv31msl4v0j0dn12htd501nqg13a0oo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
