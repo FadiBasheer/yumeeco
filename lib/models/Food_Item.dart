@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 // so we need something like this for services and also inside each service and a list of items
-class CarItemList {
+class FooditemList {
   List<FoodItem> foodItems;
 
-  CarItemList({@required this.foodItems});
+  FooditemList({@required this.foodItems});
 }
 
 class FoodItem {
@@ -34,13 +34,13 @@ class FoodItem {
 }
 
 
-CarItemList Cevic = CarItemList(foodItems: [
+FooditemList Cevic = FooditemList(foodItems: [
   FoodItem(
     id: 1,
     title: "Beach BBQ Burger",
     hotel: "Las Vegas Hotel",
     price: 14.49,
-    imgUrl: "https://drive.google.com/file/d/1XPKCvgrP-xrE-Xdvc8WcqiijQnEjMZyj/view?usp=sharing",
+    imgUrl: "https://www.yumeeco.com/wp-content/uploads/2020/06/yumeeco1.png",
 
   ),
   FoodItem(
@@ -48,7 +48,7 @@ CarItemList Cevic = CarItemList(foodItems: [
     title: "Kick Ass Burgers",
     hotel: "Dudleys",
     price: 11.99,
-    imgUrl: "https://drive.google.com/file/d/1Mcbzn8VitAVyjPiaARf6rMTVKpMfvkB_/view?usp=sharing",
+    imgUrl: "https://www.yumeeco.com/wp-content/uploads/2020/06/car-repair-maintenance.jpg",
   ),
   FoodItem(
     id: 1,
@@ -66,13 +66,13 @@ CarItemList Cevic = CarItemList(foodItems: [
   ),
 ]);
 
-CarItemList Corolla = CarItemList(foodItems: [
+FooditemList Corolla = FooditemList(foodItems: [
   FoodItem(
     id: 1,
     title: "Beach BBQ Burger",
     hotel: "Las Vegas Hotel",
     price: 1,
-    imgUrl: "https://drive.google.com/file/d/1XPKCvgrP-xrE-Xdvc8WcqiijQnEjMZyj/view?usp=sharing",
+    imgUrl: "https://www.yumeeco.com/wp-content/uploads/2020/06/yumeeco1.png",
 
   ),
   FoodItem(
@@ -80,7 +80,7 @@ CarItemList Corolla = CarItemList(foodItems: [
     title: "Kick Ass Burgers",
     hotel: "Dudleys",
     price: 1,
-    imgUrl: "https://drive.google.com/file/d/1Mcbzn8VitAVyjPiaARf6rMTVKpMfvkB_/view?usp=sharing.jpg",
+    imgUrl: "https://www.yumeeco.com/wp-content/uploads/2020/06/car-repair-maintenance.jpg",
   ),
   FoodItem(
     id: 1,
